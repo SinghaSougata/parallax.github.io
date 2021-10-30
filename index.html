@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>parallax</title>
+    <style>
+        body{
+            margin: 0px;
+        }
+        #parallax{
+            background-image: url(https://www.deskdecode.com/wp-content/uploads/2014/12/How-to-Fix-Black-Blank-or-No-Display-Laptop%E2%80%99s-Problem.jpg);
+            height: 80vh;
+            background-attachment: fixed;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+        #song{
+            background-image: url("2331346.jpg");
+            height: 80vh;
+            background-size: cover;            
+            background-position: center;
+        }
+        #music{
+            height: 80vh;
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            justify-content: center;
+            align-items: center;
+        }
+    </style>
+</head>
+<body>
+    <div id="parallax"> </div>
+    <div>
+        <h1>About me</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero debitis incidunt obcaecati maiores quasi velit molestias enim iure et, illum eligendi ducimus exercitationem quas eum voluptas consectetur! Iste sunt placeat facilis soluta, incidunt sapiente eius magni in voluptatum, corporis officiis quia nostrum. Fugit inventore, quasi laudantium deleniti quae tenetur pariatur voluptate excepturi ex. Totam, harum placeat suscipit recusandae dolorum molestiae? Culpa quam iure voluptatem nesciunt ipsa nihil sapiente numquam omnis.</p>
+    </div>
+    <div id="song">
+        <div id="music">
+        <audio controls>
+            <source src="Money Heist.mp3">
+        </audio>
+        </div>
+    </div>
+</body>
+</html>
